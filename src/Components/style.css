@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+   
+
+}
+.footer-widget{
+    justify-content: space-around;
+    bottom: 0;
+    align-items: center;
+   line-height: 0px;
+    padding: 15px 0px 0px 0px;
+   align-content: center;
+}
+li {
+    margin: 0px 5px;
+}
+
+@media  screen and(max-width:600px) {
+.footer-widget ,ul{
+    display: block !important;
+}
+}
